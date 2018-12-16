@@ -1,0 +1,213 @@
+body, .f-ff2 {
+  font-weight: lighter;
+  font-family: "PingFang SC","SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif !important;
+}
+
+/* 回到顶部 */
+#g_backtop {
+  text-indent: inherit;
+  background: none;
+  width: auto;
+  height: auto;
+}
+
+/* 标题栏 */
+#g_top {
+  display: none;
+}
+#g_nav2 {
+  display: none;
+}
+#g_nav {
+  display: none;
+}
+
+#g-topbar > .m-top {
+  background: none;
+  border: none;
+  box-shadow: 0px 0px 4px 0px #151515;
+}
+#g-topbar > .m-top > .wrap.f-cb {
+  width: auto;
+  padding: 0 10px;
+}
+#g-topbar .logo {
+  display: none;
+}
+#g-topbar .m-nav.j-tflag > .lst {
+  display: none;
+}
+#g-topbar .m-nav a {
+  line-height: 84px;
+  color: #fff;
+  transition: .3s;
+}
+#g-topbar .m-nav a:hover, #g-topbar .m-nav a.z-slt {
+  background: none;
+  color: #000;
+}
+
+#g_search > .srchbg {
+  background: none;
+}
+#srch {
+  color: #fff;
+}
+.m-srch .parent .ph.j-flag {
+  font-style: italic;
+}
+#g-topbar .m-tophead {
+  background: none;
+}
+
+#g-topbar .m-topvd.f-pr {
+  display: none;
+}
+
+/* 下载广告 */
+.m-multi {
+  display: none;
+}
+
+/**
+ * 背景神奇虚线……
+ * 给猪厂程序员跪了，太牛逼了，咋不上天呢？
+ */
+.g-bd4 {
+  background: none!important;
+  border: none!important;
+  width: auto!important;
+}
+
+/* 右侧推荐 */
+.g-sd4 {
+  display: none;
+}
+
+/* 左侧 */
+.g-bd4 .g-wrap6 {
+  padding: 0;
+}
+.g-bd4 .m-lycifo {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+.m-lycifo {
+  color: #fff;
+}
+.m-lycifo-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.m-lycifo-bg.img {
+  z-index: -1;
+  background-size: cover;
+  filter: blur(20px);
+}
+.m-lycifo-bg.color {
+  z-index: -2;
+  background-color: #000;
+}
+
+/* 左侧主内容 */
+.g-mn4 .g-mn4c {
+  margin-right: 0;
+}
+.m-lycifo > .f-cb {
+  display: flex;
+  padding-top: 120px;
+  height: 500px;
+}
+/* 封面 */
+.m-lycifo .cvrwrap {
+  flex: 1;
+  margin: 0!important;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+/* 封面图片 */
+.u-cover.u-cover-6 {
+  width: auto;
+  height: auto;
+}
+.u-cover.u-cover-6 img {
+  width: 320px;
+  height: 320px;
+  border-radius: 160px;
+  margin: 0;
+}
+/* 封面遮罩 */
+.msk.f-alpha {
+  display: none;
+}
+/* 封面下的链接 */
+.out.s-fc3 {
+  display: none;
+}
+
+/* 封面右侧主信息 */
+.m-lycifo .cnt {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+/* 歌曲标题右侧符号 */
+.m-lycifo .hd .lab {
+  display: none;
+}
+/* 歌曲标题 */
+.g-bd4 .m-lycifo .tit {
+  margin: 0;
+  color: #fff;
+}
+/* 歌手 */
+.m-lycifo .des.s-fc4 {
+  margin-bottom: 0px;
+}
+/**
+ * 按钮组
+ */
+#content-operation {
+  margin: 10px 0;
+}
+#content-operation > a {
+  background: none;
+  width: 30px;
+  margin-right: 10px;
+  padding: 0;
+  color: #fff;
+  transition: .3s;
+}
+#content-operation > a:hover {
+  color: #000;
+}
+#content-operation > a[data-res-action="play"] {
+  margin-right: 15px;
+}
+#content-operation > a[data-res-action="addto"] {
+  margin-right: 12px;
+}
+
+/* 歌词区域 */
+#lyric-content {
+  overflow-y: auto;
+  flex: 1;
+  color: #f5f5f5;
+}
+#user-operation {
+  padding: 10px;
+  line-height: normal;
+}
+.f-tdu.s-fc4 {
+  color: #666;
+}
+
+/* 评论 */
+#comment-box {
+  padding: 0 20px;
+}
